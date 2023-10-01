@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0">
+	<title>Admin</title>
+	<link rel="stylesheet"
+		href="style.css">
+	
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+</head>
+
+<body>
+
+	<!-- for header part -->
+	<header>
+
+		<div class="logosec">
+			<div class="logo">Admin</div>
+            <img src=
+            "https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png"
+                            class="icn menuicn"
+                            id="menuicn"
+                            alt="menu-icon">
+		
+
+	</header>
+
+	<div class="main-container">
+		<div class="navcontainer">
+			<nav class="nav">
+				<div class="nav-upper-options">
+					<div class="nav-option option1">
+                        <i class="fa-solid fa-bars"></i>
+						<h3> Dashboard</h3>
+					</div>
+
+					<div class="option2 nav-option" id="courses-tab">
+						<i class="fa-solid fa-book"></i>
+						<h3> Courses</h3>
+					</div>
+                    <div class="option2 nav-option">
+                        <i class="fa-solid fa-person-chalkboard"></i>
+						
+						<h3> Faculty</h3>
+					</div>
+                    <div class="option2 nav-option">
+						<i class="fa-solid fa-user"></i>
+						<h3>Student</h3>
+					</div>
+
+					<div class="nav-option option3">
+                        <i class="fa-solid fa-file"></i>
+						<h3> Report</h3>
+                    </div>
+
+					<div class="nav-option logout">
+						<i class="fa-solid fa-right-from-bracket"></i>
+						<h3>Logout</h3>
+					</div>
+
+				</div>
+			</nav>
+		</div>
+		<div class="main">
+
+			<div class="searchbar2">
+				<input type="text"
+					name=""
+					id=""
+					placeholder="Search">
+				<div class="searchbtn">
+				<img src=
+
+						class="icn srchicn"
+						alt="search-button">
+				</div>
+			</div>
+
+			<div class="box-container">
+
+				<div class="box box1">
+					<div class="text">
+						<h2 class="topic-heading">8</h2>
+						<h2 class="topic">Courses</h2>
+					</div>
+				</div>
+
+				<div class="box box2">
+					<div class="text">
+						<h2 class="topic-heading">30</h2>
+						<h2 class="topic">Faculty</h2>
+					</div>
+				</div>
+
+				<div class="box box3">
+					<div class="text">
+						<h2 class="topic-heading">320</h2>
+						<h2 class="topic">Student</h2>
+					</div>
+				</div>
+
+			<div class="report-container">
+				<div class="report-header">
+					<h1 class="recent-Articles">Courses</h1>
+					<button class="view">View All</button>
+				</div>
+
+				<div class="report-body">
+					<div class="report-topic-heading">
+						<h3 class="t-op">CourseID</h3>
+						<h3 class="t-op">Faculty</h3>
+						<h3 class="t-op">Section</h3>
+						<h3 class="t-op">Time</h3>
+						<h3 class="t-op">Action</h3>
+					</div>
+
+					<div class="items">
+						<div class="item1">
+							<h3 class="t-op-nextlvl">CSC-433</h3>
+							<h3 class="t-op-nextlvl">Babar Ahmed</h3>
+							<h3 class="t-op-nextlvl">A</h3>
+							<h3 class="t-op-nextlvl">11:45</h3>
+                            <div class="action-buttons">
+                                <button class="update-btn">Update</button>
+                                <button class="delete-btn">Delete</button>
+                                </div>
+                        </di>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./index.js"></script>
+</body>
+</html>
